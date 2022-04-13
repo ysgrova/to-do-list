@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ToDoList</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="main">
+            <div class="ToDoList"><span>To-do list</span></div>
+            <div class="btns">
+                <div class="sort-button">
+                    <button class="div3" onclick="sortListDir()"></button>
+                </div>
+                <button class="allremove"></button>
+            </div>
+            <div class="list"> 
+                <input type="text"  class="input" id="input" required>
+                <ul class="contentDiv" ></ul>
+            </div>
+            <button class="purple" id="button">
+                <span class="add">Добавить</span>
+                <span class="circle">
+                    <span class="plus">+</span>
+                </span>
+            </button>
+        </div>
+        
+    </div>
+</body>
+<script src='script.js'></script>
+</html>

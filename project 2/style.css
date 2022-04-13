@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 336px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.header{
+    height: 28px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #FFDC40;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.ToDoList{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    padding-top: 13px;
+}
+.div3{
+    width: 30px;
+    height: 20px;   
+    margin-top: 12px;
+    margin-bottom: 20px;
+    background-image: url(sort.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.div3:hover{
+    background-image: url(sort2.png);
+}
+.sort2{
+    width: 30px;
+    height: 20px;   
+    margin-top: 12px;
+    margin-bottom: 20px;
+    background-image: url(sort-reverse.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sort2:hover{;
+    background-image: url(sort-reverse2.png);
+}
+.input{
+    width: 286px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    width: 80%;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.purple{
+    width: 150px;
+    height: 42px;
+    background: #833AE0;
+    border-radius: 71px;
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.circle{
+    width: 42px;
+    height: 42px;
+    background: #9953F1;
+    border-radius: 71px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 11%;
+    top: 27%;
+}
+.plus{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contentDiv{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    margin-top: 15px;
+    padding: 10px;
+    display: none;
+    word-break: break-all;
+}
+li{
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: space-between;
+    }
+.deleteButton{
+    width: 20px;
+    height: 20px;
+    background-image: url(X.png);
+    display: inline-block;
+    background-size: cover;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.deleteButton:hover{
+    background-image: url(x2.png);
+}
+.allremove{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 6px;
+    background-image: url(X.png);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.allremove:hover{
+    background-image: url(x2.png);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 200px;
+}
